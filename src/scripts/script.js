@@ -1,4 +1,7 @@
-import $ from 'jquery';
+import bootstrap from "bootstrap";
+import $ from "jquery";
+import Popper from "popper.js";
+
 $(document).ready(function() {
     $('#openModal').click(function() {
         $('#modalBackground').show();
